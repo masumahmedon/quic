@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+    padding: 15px 0;
+    border-bottom: 2px solid black;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid red;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+img{
+    width: 100%;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{}
+.menu ul li a{
+	padding: 0 25px;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	color: #0061ff;}
+.menu ul li a:hover{}
+.menu ul li :last-child{
+	padding-right:0px;
+}
